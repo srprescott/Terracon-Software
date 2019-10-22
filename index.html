@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Terracon</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    
+    <body>
+        
+
+    
+    <div class="container-fluid">
+        <div class="row all">
+           <div class="heading">Terracon Industries</div>
+            <section class="one main-container" id="about">
+               
+               
+                <div class="info-row">
+                    <ul class="job-info">
+                        <div class="table">
+                            <li class="job-name-head job-head">Job Name:</li>
+                            <li class="job-name">95 Middle</li>
+                        </div>
+                        <div class="table">
+                            <li class="job-location-head job-head">Location:</li>
+                            <li class="job-location">Palm Beach, Fl</li>
+                        </div>
+                        <div class="table">
+                            <li class="job-product-head job-head">Product:</li>
+                            <li class="job-product">Case</li>
+                        </div>
+                        <div class="table">
+                            <li class="job-contractor-head job-head">Contractor:</li>
+                            <li class="job-contractor">Wildes</li>
+                        </div>
+                        <div class="table">
+                            <li class="job-supervisor-head job-head">Job Supervisor:</li>
+                            <li class="job-supervisor">Mike</li>
+                        </div>
+                        <div class="table">
+                            <li class="job-leader-head job-head">Job Leader:</li>
+                            <li class="job-leader">Travis</li>
+                        </div>
+                        <div class="table">
+                            <li class="job-progress-head job-head">Progress:</li>
+                            <li class="job-progress">Green</li>
+                        </div>
+                        
+                    </ul>
+                </div>
+                
+                <div class="key-info">
+                    <button class="collapsible">Key Info</button>
+                    <div class="content">Words are words</div>
+                </div>
+                
+                <div class="schedule">
+                    <button class="collapsible">Schedule</button>
+                    <div class="content">Words are words</div>
+                </div>
+                
+                <div class="job-progress">
+                    <button class="collapsible">Job Progress</button>
+                    <div class="content">Words are words</div>
+                </div>
+                
+                <div class="documents">
+                    <button class="collapsible">Documents</button>
+                    <div class="content">Words are words</div>
+                </div>
+                
+                <div class="chat">
+                    <button class="collapsible">Chat</button>
+                    <div class="content">Words are words</div>
+                </div>
+                
+                
+            </section>
+            
+            
+            <!--
+            <section class="one main-container" id="about">
+                <div class="info-row">
+                    <ul>
+                        <li>Name</li>
+                        <li>Location</li>
+                        <li>Product</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <button class="collapsible">Open Collapsible</button>
+                <div class="content">Words are words</div>
+            </section>
+            
+            <section class="one main-container" id="about">
+                
+            </section>
+            -->
+            
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+
+   
+    </body>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+} 
+</script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</html>
